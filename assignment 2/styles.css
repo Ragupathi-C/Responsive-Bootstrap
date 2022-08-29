@@ -1,0 +1,122 @@
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+   
+}
+*{box-sizing: border-box;}
+html,body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow-x: hidden; 
+    overflow-y: auto;
+    margin: 0;
+    padding: 0;
+
+}
+.buddy{
+    margin-top: -3.5vh;
+}
+.header{
+    background-color: rgb(188, 235, 235);
+   height: 10vh;
+   padding-left: 20vh;
+}
+.header ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 2vh;
+}
+.header ul li{
+   padding-left: 15px;
+   margin-left: 55px;
+   
+}
+.sear-box{
+    padding: 2vh 15vw 2vh auto;
+    border-radius: 20px;
+    border-style: solid ;
+    border-color: rgb(188, 235, 235);
+
+   
+}
+.fa-brands fa-searchengin{
+    margin-left: 10px;
+}
+
+.menu{
+    background-color:#293462;
+    padding: 15px;
+    height: 100vh;
+    color: white;
+    margin-top: -10vh;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.menu ul{list-style-type: none;
+}
+.menu ul li{
+    padding: 2vh ;
+}
+.tab{
+    border: 1px solid black;
+    height: 35vh;
+    width: 15vw;
+    margin-right: 1vw;
+    
+}
+.aside{
+    
+    padding: 15px;
+    height: 85vh;
+    background-color: #293462;
+}
+.Manual-btn{
+    background-color: #293462;
+    color: aliceblue;
+    border-style: solid;
+    border-color: #293462;
+    padding: 1vh 5vh 1vh 5vh ;
+    border-radius: 5px;
+   margin: 10px auto 15px 25px;
+
+}
+.run-btn{
+    background-color: rgb(188, 235, 235);
+    border-style: solid;
+    border-color:rgb(188, 235, 235);
+    padding: 1vh 5vh 1vh 5vh ;
+    border-radius: 5px;
+   margin: 10px auto auto 20px;
+}
+.aside ol{
+    list-style-type: none;
+   
+}
+i{padding-right: 1vw;}
+.aside ol li{
+    padding: 2vh;
+    color: white;
+}
+
+@media only screen and (max-width:768px)
+ {
+    [class*="col-"]
+    {width:100%}
+    
+}
+.main{
+    line-height: 10px;
+}
